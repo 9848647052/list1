@@ -1,0 +1,11 @@
+n=int(input())
+l=list(map(int,input().split()))
+k=int(input())
+l.sort()
+m=l[-k:]
+print('order of elements:',l)
+print('last three elements:',m)
+print('maximum no:',max(m))
+print('minimum no:',min(m))
+print('Difference:',max(m)-min(m))
+
